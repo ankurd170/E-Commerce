@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	
+<head>
+
+<style type="text/css">
+    
+
+
+
+
+
+
+.bottombox
+{
+     margin-top: 0px;
+     margin-left: 0px;
+     width: 800px;
+     min-height: 250px;
+     background-color:paleturquoise;
+     padding: 30px;
+     float: left;
+}    
+
+.billbox
+{
+     width: 100%;
+     margin-left: 0px;
+     min-height: 350px;
+     background-color:cornflowerblue;
+     padding-left: 0px;
+     
+}    
+
+.b
+{
+     margin-left: 655px;
+
+     
+}
+
+.bnone
+{
+     margin-left: 587px;
+     margin-top: 10px;
+}
+
+.bl
+{
+     margin-left: 594px;
+     padding-left: 5px;
+     margin-top: 30px;
+     width: 230px;
+     height: 200px;
+     background-color:burlywood;
+     
+}
+
+
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+     <nav class="navbar navbar-dark bg-dark ">
+         
+          <p class="tp text-center" style="color: blanchedalmond;">BILLING</p>
+     
+               
+               <li class="nav-item" >
+                    
+               </li>
+          </ul>
+     </nav>
+
+<div class="billbox">
+
+    <label class="b">BILLING DETAILS</label>
+<div class="bl text-center ">
+    
+    <label>item total:<input type="text" id="tt" readonly></label>
+     <label>GST@18%:<input type="text"  id="gst" readonly></label>
+     <label>Totalbill:<input type="text" id="tprice" readonly></label>
+     </div>
+     <br>
+     <button  class="b btn btn-success"  onclick='buy()'>BUY NoW</button>
+     <br>
+     <button id="btn" class="bnone btn btn-outline-succcess " onclick='window.location.replace("shpping.html")'>Back to shopping cart/view cart</button> 
+</div>     
+
+<script type="text/javascript" src="js/bill.js" onload='dispbill()'></script>	
+
+
+</body>
+</html>
